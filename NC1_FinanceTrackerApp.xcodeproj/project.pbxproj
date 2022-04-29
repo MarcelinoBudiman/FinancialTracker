@@ -13,6 +13,8 @@
 		1F75C68728197B5100D4FA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F75C68528197B5100D4FA58 /* Main.storyboard */; };
 		1F75C68928197B5200D4FA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F75C68828197B5200D4FA58 /* Assets.xcassets */; };
 		1F75C68C28197B5200D4FA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F75C68A28197B5200D4FA58 /* LaunchScreen.storyboard */; };
+		1F75C69428197BD900D4FA58 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75C69328197BD900D4FA58 /* TrackViewController.swift */; };
+		1F75C696281A951600D4FA58 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75C695281A951600D4FA58 /* TransactionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1F75C68828197B5200D4FA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F75C68B28197B5200D4FA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F75C68D28197B5200D4FA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F75C69328197BD900D4FA58 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		1F75C695281A951600D4FA58 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				1F75C67F28197B5100D4FA58 /* AppDelegate.swift */,
 				1F75C68128197B5100D4FA58 /* SceneDelegate.swift */,
 				1F75C68328197B5100D4FA58 /* ViewController.swift */,
+				1F75C69328197BD900D4FA58 /* TrackViewController.swift */,
 				1F75C68528197B5100D4FA58 /* Main.storyboard */,
 				1F75C68828197B5200D4FA58 /* Assets.xcassets */,
 				1F75C68A28197B5200D4FA58 /* LaunchScreen.storyboard */,
 				1F75C68D28197B5200D4FA58 /* Info.plist */,
+				1F75C695281A951600D4FA58 /* TransactionModel.swift */,
 			);
 			path = NC1_FinanceTrackerApp;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F75C696281A951600D4FA58 /* TransactionModel.swift in Sources */,
+				1F75C69428197BD900D4FA58 /* TrackViewController.swift in Sources */,
 				1F75C68428197B5100D4FA58 /* ViewController.swift in Sources */,
 				1F75C68028197B5100D4FA58 /* AppDelegate.swift in Sources */,
 				1F75C68228197B5100D4FA58 /* SceneDelegate.swift in Sources */,
